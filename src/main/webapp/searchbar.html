@@ -1,0 +1,14 @@
+<div id="filterStudent" class="container-fluid pt-3 text-center">
+    <form action="" method="post">
+        <input id="filter" placeholder="Filter" type="text" name="filter">
+        <input class="btn btn-success" type="submit" name="setFilter" value="Filter setzen">
+        <input class="btn btn btn-danger" type="submit" name="removeFilter" value="Filter entfernen">
+    </form>
+    <form id="selectStudent" action="" method="post">
+        <label>Sch&uuml;ler ausw&auml;hlen: </label>
+        <select class="form-control" onchange="loadStudent()" id="students">
+        </select>
+    </form>
+</div>
+<link rel="stylesheet" href="css/schueler.css">
+<script src="js/schueler.js"></script>

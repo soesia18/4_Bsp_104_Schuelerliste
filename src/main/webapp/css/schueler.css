@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+}
+
+td {
+    padding: 15px;
+}
+
+tr {
+    border-bottom: solid azure;
+}
+
+#selectStudent {
+    display: inline-block;
+    width: 50%;
+}
+
+#student {
+    background-color: beige;
+    margin: 20px auto;
+    width: 75%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 25px;
+}
+
+#filterStudent {
+    margin: 20px auto;
+    width: 75%  ;
+    background-color: azure;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+#imageDiv {
+    float:left;
+}
+
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
